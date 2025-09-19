@@ -1,0 +1,106 @@
+/* Fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: #1e1e2f; /* Fondo oscuro */
+    color: #f1f1f1;      /* Texto claro */
+}
+
+/* Encabezado */
+.header {
+    background: linear-gradient(135deg, #6c5ce7, #00cec9);
+    text-align: center;
+    padding: 3rem 1rem;
+    color: white;
+}
+
+.perfil-imagen {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.name {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.tagline {
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+/* Contenido principal */
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    background: #2d2d44;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #74b9ff;
+}
+
+/* Contacto */
+.contact ul {
+    list-style: none;
+}
+
+.contact li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.contact a {
+    color: #00cec9;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact a:hover {
+    color: #6c5ce7;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #111122;
+    color: #dcdde1;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    border-top: 2px solid #2d2d44;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .perfil-imagen {
+        width: 120px;
+        height: 120px;
+    }
+}
